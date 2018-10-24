@@ -1,4 +1,4 @@
-## Webpack 4 (4.10.2v) Vanilla Javascript Starter
+## Webpack 4 (4.23.0) Vanilla Javascript Starter
 
 - `npm install`
 - `npm start` - developing
