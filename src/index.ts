@@ -20,6 +20,7 @@ const QUESTIONS = [
     message: 'Project name:',
   },
 ];
+
 export interface Answer {
   name: string;
   template: string;
@@ -72,7 +73,7 @@ const createDirectoryContents = (templatePath: string, projectName: string) => {
   const filesToCreate = fs.readdirSync(templatePath);
 
   // loog each file/folder
-  filesToCreate.forEach(file => {
+  filesToCreate.forEach((file) => {
     const origFilePath = path.join(templatePath, file);
 
     // get stats about the current fike
